@@ -4,6 +4,7 @@
   ![License](https://img.shields.io/badge/license-MIT-green)
 
   ## Description
+  ![Note Taker's Site](/assets/images/note-taker.png)
 
   ## Table of Contents
   * [Installation](#installation)
