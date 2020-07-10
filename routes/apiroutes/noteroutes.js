@@ -11,15 +11,18 @@ router.get("/notes", (req, res) => {
 });
 
 router.post("/notes", (req, res) => {
-    const note = createNewNote(req.body, db);
+
     // set id based on what the next index of the array will be
-    // req.body.id = note.length.toString();
+    req.body.id = db.length.toString();
+    
 
     // add animal to json file and animals array in this function
     // if (!validateAnimal(req.body)) {
     //     res.status(400).send("The animal is not properly formatted");
     // } else {
     // }
+
+    const note = createNewNote(req.body, db);
 
     res.json(note);
 });

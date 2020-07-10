@@ -1,15 +1,7 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text",
+    "title": "Example Note",
+    "text": "Example Text",
     "id": "test_id"
-  },
-  {
-    "title": "test",
-    "text": "test"
-  },
-  {
-    "title": "jingo ",
-    "text": "I really like the word jingo"
   }
 ]
